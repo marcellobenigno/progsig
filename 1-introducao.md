@@ -39,6 +39,20 @@ int main()
 }
 ```
 
+#### Pascal:
+
+``` pascal
+program HelloWorld(output);
+var
+    nome: string;
+begin
+    writeln('Digite seu nome:');
+    read(nome);
+    writeln('Olá, ', nome);
+end.
+```
+
+
 #### PHP:
 
 ```php
