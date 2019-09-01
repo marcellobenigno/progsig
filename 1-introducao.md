@@ -20,7 +20,7 @@ public class Hello
 {
     public static void main(String args[]) {
         java.util.Scanner s = new java.util.Scanner(System.in);
-        System.out.print("Digite seu nome:");
+        System.out.print("Digite seu nome: ");
         String nome = s.nextLine();
         System.out.println("Olá, " + nome);
     }
@@ -32,7 +32,7 @@ public class Hello
 int main()
 {
     char nome[200];
-    printf("Digite seu nome:");
+    printf("Digite seu nome: ");
     scanf("%s", nome);
     printf("Olá, %s\n", nome);
     return 0;
@@ -46,7 +46,7 @@ program HelloWorld(output);
 var
     nome: string;
 begin
-    writeln('Digite seu nome:');
+    writeln('Digite seu nome: ');
     read(nome);
     writeln('Olá, ', nome);
 end.
@@ -62,7 +62,7 @@ echo 'olá: ' . $nome;
 
 #### Python: 😍
 ``` python
-nome = input('Digite seu nome:')
+nome = input('Digite seu nome: ')
 print('Olá, nome)
 ```
 
