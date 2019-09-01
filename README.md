@@ -1,6 +1,6 @@
 # PROGRAMAÇÃO PARA SIG
 
-![ifpb](img/ifpb.png)
+![ifpb](.pastes/ifpb.png)
 
 ### CURSO SUPERIOR DE TECNOLOGIA EM GEOPROCESSAMENTO - IFPB
 
