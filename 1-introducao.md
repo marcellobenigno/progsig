@@ -64,7 +64,7 @@ O caractere de sublinhar (_) pode aparecer em um de variável. Muitas vezes é u
 SyntaxError: invalid syntax
 >>> email@ = 'joao@email.com'
 SyntaxError: invalid syntax
->>> class = 'Progracação'
+>>> class = 'Programação'
 SyntaxError: invalid syntax
 ```
 
