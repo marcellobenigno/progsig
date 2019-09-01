@@ -68,7 +68,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 ```
 
-10v é ilegal porque começa com um número. já **class** é uma palavra reservadas não pode ser utilizada como nome de variável.
+`10v` é ilegal porque começa com um número, `email@` possui um caractere ilegal. Já `class` é uma palavra reservadas não pode ser utilizada como nome de variável.
 
 São palavras reservadas em Python:
 
