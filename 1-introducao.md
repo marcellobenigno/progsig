@@ -39,6 +39,13 @@ int main()
 }
 ```
 
+#### PHP:
+
+```php
+$nome = readline("Digite seu nome: ");
+echo 'olá: ' . $nome;
+```
+
 #### Python: 😍
 ``` python
 nome = input('Digite seu nome:')
@@ -53,7 +60,7 @@ Uma instrução de atribuição cria uma nova variável e dá um valor a ela:
 ``` python
 nome = 'Marcello'
 idade = 42
-peso = 98.50
+peso = 96.50
 ```
 
 #### Nomes de variáveis:
