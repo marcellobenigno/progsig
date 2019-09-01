@@ -8,6 +8,8 @@ A linguagem foi criada em 1989 por **Guido Van Rossum** e o seu nome foi uma hom
 
 ![guido](.pastes/2019-09-01-19-31-54.png)
 
+Guido Van Rossum - O pai da criança.
+
 ### Por que Python?
 
 *extraído do link: https://pythonhelp.wordpress.com/por-que-python/*
@@ -105,4 +107,23 @@ def         for         lambda      return
 >>> type(cond)
 <class 'bool'>
 ```
+
 📚  Sugestão de leitura:  https://realpython.com/python-data-types/
+
+💡 Atribuição múltipla: permite definir diversas variáveis ao mesmo tempo e inclusive trocar os valores entre elas:
+
+```python
+>>> longitude, latitude = -36.70, -8.23
+>>> longitude
+-36.7
+>>> latitude
+-8.23
+>>> ponto_3d = (-30.11, -8.25, 17.00)
+>>> x, y, z = ponto_3d
+>>> x
+-30.11
+>>> y
+-8.25
+>>> z
+17.0
+```
