@@ -11,9 +11,9 @@ https://penseallen.github.io/PensePython2e/
 > Um programa é uma sequência de instruções que especifica como executar uma operação de computação. A operação de computação pode ser algo matemático, como solucionar um sistema de equações ou encontrar as raízes de um polinômio, mas também pode ser uma operação de computação simbólica, como a busca e a substituição de textos em um documento; ou algo gráfico, como o processamento de uma imagem ou a reprodução de um vídeo.
 
 > Os detalhes parecem diferentes em linguagens diferentes, mas algumas instruções básicas aparecem em quase todas as linguagens:
-> * Entrada: Receber dados do teclado, de um arquivo, da rede ou de algum outro dispositivo.
-> * Saída: Exibir dados na tela, salvá-los em um arquivo, enviá-los pela rede etc.
-> * Matemática: Executar operações matemáticas básicas como adição e multiplicação.
-> * Execução condicional: Verificar a existência de certas condições e executar o código adequado.
-> * Repetição: Executar várias vezes alguma ação, normalmente com algumas variações.
+> * Entrada: receber dados do teclado, de um arquivo, da rede ou de algum outro dispositivo.
+> * Saída: exibir dados na tela, salvá-los em um arquivo, enviá-los pela rede etc.
+> * Matemática: executar operações matemáticas básicas como adição e multiplicação.
+> * Execução condicional: verificar a existência de certas condições e executar o código adequado.
+> * Repetição: executar várias vezes alguma ação, normalmente com algumas variações.
 
