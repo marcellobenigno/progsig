@@ -4,6 +4,10 @@
 
 **Python é uma linguagem de programação com código aberto, de alto nível, tipicamente usada para aplicações web ou linguagens de scripts para administração de sistemas.**
 
+A linguagem foi criada em 1989 por **Guido Van Rossum** e o seu nome foi uma homenagem ao grupo humorístico britânico **Monty Python** (*Monty Python's Flying Circus*), embora muitas pessoas façam associação com o réptil do mesmo nome 🐍 .
+
+![guido](.pastes/2019-09-01-19-31-54.png)
+
 ### Por que Python?
 
 *extraído do link: https://pythonhelp.wordpress.com/por-que-python/*
@@ -40,7 +44,7 @@ print('Olá, nome)
 ```
 
 
-### Instruções de atribuição
+### Instruções de atribuição:
 
 Uma instrução de atribuição cria uma nova variável e dá um valor a ela:
 
@@ -50,11 +54,11 @@ idade = 42
 peso = 98.50
 ```
 
-#### Nomes de variáveis
+#### Nomes de variáveis:
 
-Podem conter tanto letras como números, mas não podem começar com um número. É convenção utilizar apenas letras minúsculas para nomes de variáveis.
+Podem conter tanto letras como números, mas não podem começar com um número. É convenção utilizar letras minúsculas para nomes de variáveis, porém para indicar constantes, a convenção é colocar o nome da variável em *uppercase* (ex. `VARIAVEL=12`).
 
-O caractere de sublinhar (_) pode aparecer em um de variável. Muitas vezes é usado em nomes compostos, como `data_nascimento` ou `area_m2`.
+O caractere *underline* (_) pode aparecer no nome de uma de variável. Muitas vezes é usado em nomes compostos, como `data_nascimento` ou `area_m2`.
 
 **Exemplos de nomes ilegais para variáveis:**
 
@@ -67,7 +71,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 ```
 
-`10v` é ilegal porque começa com um número, `email@` possui um caractere ilegal. Já `class` é uma palavra reservadas não pode ser utilizada como nome de variável.
+`10v` é ilegal porque começa com um número, `email@` possui um caractere ilegal. Já `class` é uma palavra reservada não pode ser utilizada como nome de variável.
 
 São palavras reservadas em Python:
 
@@ -81,3 +85,24 @@ continue    finally     is          raise
 def         for         lambda      return
 ```
 
+### Tipos de Variáveis:
+
+- **Numéricos**: armazenam números. São: inteiros (int), de ponto flutuante (float) e complexos (complex);
+- **Literais**: armazenam caracteres (qualquer um do teclado) ou sequências de caracteres (string);
+- **Lógicos**: booleanos, armazenam verdadeiro ou falso (bool).
+
+``` python
+>>> valor = 100
+>>> type(valor)
+<class 'int'>
+>>> perimetro_m = 237.95
+>>> type(perimetro_m)
+<class 'float'>
+>>> nome = 'Maria'
+>>> type(nome)
+<class 'str'>
+>>> cond = True
+>>> type(cond)
+<class 'bool'>
+```
+📚  Sugestão de leitura:  https://realpython.com/python-data-types/
