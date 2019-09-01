@@ -4,21 +4,38 @@
 
 **Python é uma linguagem de programação com código aberto, de alto nível, tipicamente usada para aplicações web ou linguagens de scripts para administração de sistemas.**
 
-*Extraído do Livro Pense em Python*:
-https://penseallen.github.io/PensePython2e/
+### Por que Python?
 
->### O que é um Programa?
+*extraído do link: https://pythonhelp.wordpress.com/por-que-python/*
 
->Um programa é uma sequência de instruções que especifica como executar uma operação de computação. A operação de computação pode ser algo matemático, como solucionar um sistema de equações ou encontrar as raízes de um polinômio, mas também pode ser uma operação de computação simbólica, como a busca e a substituição de textos em um documento; ou algo gráfico, como o processamento de uma imagem ou a reprodução de um vídeo.
+#### Java:
+``` java
+public class Hello
+{
+    public static void main(String args[]) {
+        java.util.Scanner s = new java.util.Scanner(System.in);
+        System.out.print("Digite seu nome:");
+        String nome = s.nextLine();
+        System.out.println("Olá, " + nome);
+    }
+}
 
-> Os detalhes parecem diferentes em linguagens diferentes, mas algumas instruções básicas aparecem em quase todas as linguagens:
+```
+#### C:
+``` c
+#include <stdio.h>;
+int main()
+{
+    char nome[200];
+    printf("Digite seu nome:");
+    scanf("%s", nome);
+    printf("Olá, %s\n", nome);
+    return 0;
+}
+```
 
->**Entrada:** Receber dados do teclado, de um arquivo, da rede ou de algum outro dispositivo.
-
->**Saída:** Exibir dados na tela, salvá-los em um arquivo, enviá-los pela rede etc.
-
->**Matemática:** Executar operações matemáticas básicas como adição e multiplicação.
-
->**Execução condicional:** Verificar a existência de certas condições e executar o código adequado.
-
->**Repetição:** Executar várias vezes alguma ação, normalmente com algumas variações.
+#### Python: 😍
+``` python
+nome = input('Digite seu nome:')
+print ('Olá,', nome)
+```
