@@ -66,6 +66,16 @@ nome = input('Digite seu nome: ')
 print('Olá, nome)
 ```
 
+### O Interpretador Python:
+
+```
+$ python
+Python 3.6.8 (default, May  8 2019, 15:40:17)
+[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
 
 ### Instruções de atribuição:
 
@@ -148,3 +158,87 @@ def         for         lambda      return
 >>> z
 17.0
 ```
+
+### Operadores:
+
+Operadores Numéricos Básicos:
+
+- Adição: +
+- Subtração: -
+- Divisão: /
+- Multiplicação: *
+- Potenciação: **
+- Resto de uma divisão: %
+
+Retirado do livro **Pense em Python 2e**: 📚   https://penseallen.github.io/
+
+> Quando uma expressão contém mais de um operador, a ordem da avaliação depende da ordem das operações. Para operadores matemáticos, o Python segue a convenção matemática. O acrônimo PEMDAS pode ser útil para lembrar das regras:
+
+> Os **Parênteses** têm a precedência mais alta e podem ser usados para forçar a avaliação de uma expressão na ordem que você quiser. Como as expressões em parênteses são avaliadas primeiro, 2 * (3-1) é 4, e (1+1)**(5-2) é 8. Também é possível usar parênteses para facilitar a leitura de uma expressão, como no caso de (minute * 100) / 60, mesmo se o resultado não for alterado.
+
+> A **Exponenciação** tem a próxima precedência mais alta, então 1 + 2**3 é 9, não 27, e 2 * 3**2 é 18, não 36.
+
+> A **Multiplicação** e a **Divisão** têm precedência mais alta que a **Adição** e a **Subtração**. Assim, 2 * 3 - 1 é 5, não 4, e 6 + 4 / 2 é 8, não 5.
+
+> Os operadores com a mesma precedência são avaliados da esquerda para a direita (exceto na exponenciação). Assim, na expressão degrees / 2 * pi, a divisão acontece primeiro e o resultado é multiplicado por pi. Para dividir por 2π, você pode usar parênteses ou escrever degrees / 2 / pi.
+
+📚  Sugestão de leitura:  https://github.com/PyLadiesSP/Cursos
+
+O exercício abaixo foi retirado deste link.
+
+**Exercício 01:** Defina as variáveis como:
+
+```python
+a=2
+b=3
+c = 2.0
+d = '2.0'
+```
+e faça as operações a seguir:
+
+```python
+a + b
+b ** a
+a + c
+a + d
+```
+
+e também teste as condições a seguir:
+
+```python
+a == c
+a <= b
+a < b and b < c
+a < b or b < c
+a > c or a >= c
+not(a != b and b <= (a**2)-1)
+```
+
+📚  Sugestão de leitura:  https://github.com/rg3915/tutoriais
+
+O exercício abaixo foi retirado deste link.
+
+**Exercício 02:** Um jogo de futebol foi programado para ser realizado com duração normal: 2 tempos de 45 minutos, com um intervalo de 15 minutos. O jogo começou pontualmente às 9:00 horas.
+
+Um repórter cronometrou 6 jogadas que considerou as mais importantes a partir do início do jogo e registrou suas marcas da seguinte maneira:
+
+| Jogada    | Tempo desde o início do jogo |
+| --------- | ---------------------------- |
+| Falta A   | 590 s                        |
+| Pênalti   | 785 s                        |
+| Gol I     | 1350 s                       |
+| Gol II    | 2690 s                       |
+| Falta B   | 4332 s                       |
+| Bicicleta | 5960 s                       |
+
+A partir das informações acima, assinale a afirmativa correta.
+
+(A) A falta A aconteceu exatamente às 9h e 9 minutos.
+
+(B) O primeiro gol ocorreu no tempo cravado de 22 minutos e 30 segundos do 1º tempo.
+
+(C) A bicicleta surpreendeu o público aos 39 minutos e 20 segundos do 1º tempo.
+
+(D) O pênalti aconteceu aos 22 minutos e 5 segundos do 1º tempo.
+
+(E) O segundo gol aconteceu no segundo tempo.
