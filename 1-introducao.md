@@ -189,8 +189,8 @@ O exercício abaixo foi retirado deste link.
 **Exercício 01:** Defina as variáveis como:
 
 ```python
-a=2
-b=3
+a = 2
+b = 3
 c = 2.0
 d = '2.0'
 ```
