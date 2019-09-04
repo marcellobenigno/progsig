@@ -41,7 +41,7 @@ else:
 
 ### `elif` (else if, se não se):
 
-Em alguma situações precisamos encadear várias condições de teste em um programa para isso podemos juntar o comando else com o if. No python temos um comando que faz justamente isso para nós o elif (else + if). com ele podemos passar mais uma condição e realizar vários testes em sequência. O elif segue a mesma ideia do if e do else. Caso a condição passada para ele seja verdadeira,  é executado seu bloco de código baseado no **alinhamento**.
+Em alguma situações precisamos encadear várias condições de teste em um programa, para isso, podemos juntar o comando `else` com o `if`. No python temos um comando que faz justamente isso para nós, o `elif` (else + if). com ele podemos passar mais uma condição e realizar vários testes em sequência. O `elif` segue a mesma ideia do `if` e do `else`. Caso a condição passada para ele seja verdadeira, é executado seu bloco de código baseado no **alinhamento**.
 
 ```python
 idade = 30
