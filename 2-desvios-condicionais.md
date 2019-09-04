@@ -47,7 +47,7 @@ Em alguma situações precisamos encadear várias condições de teste em um pro
 idade = 30
 
 if idade >= 65:
-    print "passagem gratuida"
+    print "passagem gratuita"
 elif idade >= 18:
     print "passagem inteira"
 else:
