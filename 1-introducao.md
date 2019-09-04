@@ -1,4 +1,4 @@
-# 1. Introdução à lógica de programação com Python
+# 1. Introdução à Linguagem
 
 ![](.pastes/2019-09-01-09-11-58.png)
 
@@ -40,7 +40,6 @@ int main()
 ```
 
 #### Pascal:
-
 ``` pascal
 program HelloWorld(output);
 var
@@ -52,9 +51,7 @@ begin
 end.
 ```
 
-
 #### PHP:
-
 ```php
 $nome = readline("Digite seu nome: ");
 echo 'olá: ' . $nome;
@@ -67,7 +64,6 @@ print('Olá, nome)
 ```
 
 ### O Interpretador Python:
-
 ```
 $ python
 Python 3.6.8 (default, May  8 2019, 15:40:17)
@@ -75,7 +71,6 @@ Python 3.6.8 (default, May  8 2019, 15:40:17)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
-
 
 ### Instruções de atribuição:
 
@@ -195,7 +190,6 @@ c = 2.0
 d = '2.0'
 ```
 e faça as operações a seguir:
-
 ```python
 a + b
 b ** a
@@ -204,7 +198,6 @@ a + d
 ```
 
 e também teste as condições a seguir:
-
 ```python
 a == c
 a <= b
