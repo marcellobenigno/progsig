@@ -165,7 +165,7 @@ Operadores Numéricos Básicos:
 - Potenciação: **
 - Resto de uma divisão: %
 
-Retirado do livro **Pense em Python 2e**: 📚   https://penseallen.github.io/
+Retirado do livro **Pense em Python 2e**: 📚  https://penseallen.github.io/PensePython2e/
 
 > Quando uma expressão contém mais de um operador, a ordem da avaliação depende da ordem das operações. Para operadores matemáticos, o Python segue a convenção matemática. O acrônimo PEMDAS pode ser útil para lembrar das regras:
 
