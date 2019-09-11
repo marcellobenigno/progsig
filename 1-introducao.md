@@ -165,13 +165,13 @@ Operadores Numéricos Básicos:
 - Potenciação: **
 - Resto de uma divisão: %
 
-Retirado do livro **Pense em Python 2e**: 📚   https://penseallen.github.io/
+Retirado do livro **Pense em Python 2e**: 📚  https://penseallen.github.io/PensePython2e/
 
 > Quando uma expressão contém mais de um operador, a ordem da avaliação depende da ordem das operações. Para operadores matemáticos, o Python segue a convenção matemática. O acrônimo PEMDAS pode ser útil para lembrar das regras:
 
 > Os **Parênteses** têm a precedência mais alta e podem ser usados para forçar a avaliação de uma expressão na ordem que você quiser. Como as expressões em parênteses são avaliadas primeiro, 2 * (3-1) é 4, e (1+1)**(5-2) é 8. Também é possível usar parênteses para facilitar a leitura de uma expressão, como no caso de (minute * 100) / 60, mesmo se o resultado não for alterado.
 
-> A **Exponenciação** tem a próxima precedência mais alta, então 1 + 2**3 é 9, não 27, e 2 * 3**2 é 18, não 36.
+> A **Exponenciação** tem a próxima precedência mais alta, então 1 + 2 ** 3 é 9, não 27, e 2 * 3 ** 2 é 18, não 36.
 
 > A **Multiplicação** e a **Divisão** têm precedência mais alta que a **Adição** e a **Subtração**. Assim, 2 * 3 - 1 é 5, não 4, e 6 + 4 / 2 é 8, não 5.
 

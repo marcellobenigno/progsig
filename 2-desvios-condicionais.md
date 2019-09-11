@@ -26,7 +26,7 @@ else:
     print "maior de idade"
 ```
 
-💣  Cuidado! a função `input` sempre vai retornar uma string, esteja atendo a isso.
+💣  Cuidado! a função `input` sempre vai retornar uma string, esteja atento a isso.
 
 ### Operadores de Comparação:
 
