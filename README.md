@@ -10,6 +10,9 @@
 
 #### [2. Desvios Condicionais][2]
 
+#### [3. Strings][3]
+
 
 [1]:1-introducao.md
 [2]:2-desvios-condicionais.md
+[3]:3-strings.md
