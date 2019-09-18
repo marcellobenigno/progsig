@@ -21,9 +21,9 @@ Interagindo com o usuário através da função `input`:
 idade = int(input("Digite sua idade"))
 
 if idade < 18:
-    print "menor de idade"
+    print("menor de idade")
 else:
-    print "maior de idade"
+    print("maior de idade")
 ```
 
 💣  Cuidado! a função `input` sempre vai retornar uma string, esteja atento a isso.
@@ -47,24 +47,24 @@ Em alguma situações precisamos encadear várias condições de teste em um pro
 idade = 30
 
 if idade >= 65:
-    print "passagem gratuita"
+    print("passagem gratuita")
 elif idade >= 18:
-    print "passagem inteira"
+    print("passagem inteira")
 else:
-    print "meia passagem"
+    print("meia passagem")
 ```
 
 ```python
 x = 44
 
 if x > 100:
-    print "x maior que 100"
+    print("x maior que 100")
 elif x > 50:
-    print "x maior que 50 e menor ou igual que 100"
+    print("x maior que 50 e menor ou igual que 100")
 elif x > 0:
-    print "x maior que 0 e menor ou igual que 50"
+    print("x maior que 0 e menor ou igual que 50")
 else:
-    print "x menor ou igual que 0"
+    print("x menor ou igual que 0")
 ```
 
 ### Operadores Ternários:
