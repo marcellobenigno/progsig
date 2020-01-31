@@ -1,6 +1,6 @@
 # 1. Introdução à Linguagem
 
-![](.pastes/2019-09-01-09-11-58.png)
+![](../.pastes/2019-09-01-09-11-58.png)
 
 **Python é uma linguagem de programação com código aberto, de alto nível, tipicamente usada para aplicações web ou linguagens de scripts para administração de sistemas.**
 

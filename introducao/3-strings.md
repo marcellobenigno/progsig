@@ -69,7 +69,7 @@ texto = 'hoje tem aula no IFPB'
 
 ### Fatiamento de strings ou *Slicing*:
 
-![](.pastes/2019-09-11-07-58-25.png)
+![](../.pastes/2019-09-11-07-58-25.png)
 
 ```python
 palavra = 'benigno'

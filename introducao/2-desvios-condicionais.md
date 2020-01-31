@@ -2,7 +2,7 @@
 
 Para criar um desvio condicional utilizamos o comando `if`. É avaliada a condição para que uma sequência de comandos seja executada.
 
-![if](.pastes/2019-09-04-07-42-41.png)
+![if](../.pastes/2019-09-04-07-42-41.png)
 
 Figura extraída do site [Real Python](https://realpython.com/python-conditional-statements/)
 
