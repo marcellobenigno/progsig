@@ -85,7 +85,7 @@ palavra[0:3]
 palavra[:3]
 >>> 'ben'
 palavra[1:4]
->>> 'enig'
+>>> 'eni'
 palavra[-1]
 >>> 'o'
 palavra[-3]
