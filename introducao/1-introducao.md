@@ -6,7 +6,7 @@
 
 A linguagem foi criada em 1989 por **Guido Van Rossum** e o seu nome foi uma homenagem ao grupo humorístico britânico **Monty Python** (*Monty Python's Flying Circus*), embora muitas pessoas façam associação com o réptil do mesmo nome 🐍 .
 
-![guido](..pastes/2019-09-01-19-31-54.png)
+![guido](...pastes/2019-09-01-19-31-54.png)
 
 Guido Van Rossum - O pai da criança.
 
